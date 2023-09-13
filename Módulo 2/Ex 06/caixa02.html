@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupamento de caixas em HTML5</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+        nav{
+            background-color: rgba(95, 95, 95, 0.341);
+            color: rgba(0, 0, 255, 0.316);
+            margin: 10px;
+            border-radius: 6px;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.563);
+
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            margin: 10px;
+        }
+        nav> a:hover {
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article {
+            background-color: rgba(120, 120, 120, 0.135);
+            padding: 10px;
+        }
+        article > aside {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="asssunto">
+            <article id="conteudo 1">
+                <h2>Veja como descobrir se bllablalbala</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta corporis consequatur omnis voluptatem possimus. Suscipit quasi laboriosam aut esse, porro illum repellat possimus eius iure odit, expedita eos, ex vel!</p>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre ##</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, nulla? Quo amet unde quas eos magnam earum corrupti harum ab velit tempora illum beatae sunt recusandae assumenda, enim est tempore.</p>
+                <aside>
+                    Escrito por José da Silva
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>Site desenvolvido por Levi</footer>
+</body>
+</html>

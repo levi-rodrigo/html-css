@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de imagens</title>
+</head>
+<body>
+    <h1>Teste de imagens dinamicas</h1>
+    <p>
+        Aqui podemos ver o teste de uma imagem que, quando nos mudamos o tamnho da viewport, ela muda de tamanho ou até de sentido
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto grande">
+    </picture>
+    <h1>
+        Reproduzindo audio
+    </h1>
+    <p>Reproduzindo audios em HTML5.</p>
+    <audio preload="auto" autoplay controls> <source src="media/happy-mistake.mp3"  type="audio/mpeg">
+    <source src="media/happy-mistake.ogg" type="audio/ogg">
+    <source src="media/happy-mistake.wav" type="audio/wav">
+    <p>Infelizmente o seu navegador é incompativel, tente baixar o audio <a href="media/happy-mistake.mp3">aqui</a></p>
+    </audio>
+</body>
+</html>
