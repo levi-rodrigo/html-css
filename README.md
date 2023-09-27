@@ -1,3 +1,3 @@
 # html-css
-estou aprendendo com o curso em 
+estou aprendendo com o curso em video
  
